@@ -1,0 +1,191 @@
+body{
+    background-color:white;
+}
+.upper{
+    display: flex;
+    justify-content: space-evenly;                      
+    border: 1px solid blanchedalmond;
+    border-radius:10px;
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+.btn1{
+ margin-top:10px;
+ width: 130px;
+ border-radius: 10px;
+ font-size: 20px;
+ background-color: white;
+ 
+}
+.btn1:hover{
+  background-color:maroon;
+  color: white;
+}
+.map{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 305px;
+    margin: 10px;
+}
+.image{
+    height: 200px;
+    width: 300px; 
+}
+#price{
+    font-size: 20px;
+    font-weight: 700;
+    color: blue;
+    margin-left: 150px;
+    position: relative;
+    bottom: 30px;
+}
+#price:hover{
+  color: red;
+}
+
+#location{
+     margin-left: 10px;
+     font-size: 25px;
+     font-weight: 700;
+     text-transform: capitalize;
+     margin-top: 20px;
+     
+}
+#propertytype{
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  position: relative;
+  bottom: 45px;
+
+}
+#bookbtn{
+    background-color: darkblue;
+    color: white;
+    /* font-size: 25px; */
+    width: 150px;
+    padding: 2px;
+    margin-left:45px;
+    border-radius: 10px;
+    position: relative;
+   bottom: 80px;
+
+}
+#bookbtn:hover{
+    background-color: blueviolet;
+    color: brown;
+}
+#ddlPriceRange,.para,#d,#cars,#house{
+    font-weight: 700;
+}
+#address{
+  /* position: relative; */
+  /* top: 15px; */
+}
+
+/* For Tablet View */
+@media screen and (max-width: 768px)
+ {
+
+  .upper{
+     background-color:green;
+    color: grey; 
+    display: flex;
+    justify-content: space-evenly; 
+  }
+#ddlPriceRange{
+    width: 100px;
+    border-radius: 10px;
+  }
+  .price{
+    margin-left: 5px;
+  }  
+#select{ 
+    display: none;
+  }
+  #d{
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+ 
+  #cars{
+     border-radius: 10px;
+     width: 150px;
+  }
+  #house{
+    border-radius: 10px;
+    width: 150px;
+  }
+  
+.map{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 350px;
+    
+    margin-left: 10px;
+}
+.image{
+    height: 200px;
+    width: 346px; 
+}
+
+    
+   
+}
+ 
+/* For Mobile Portrait View */
+
+@media screen and (max-width: 320px)
+   {
+    
+  .upper {
+   background-color: red;
+    color: #fff;
+    display: flex;
+     justify-content: space-evenly; 
+    margin: 2px; 
+  }
+  
+#ddlPriceRange{
+    margin-left: 0px;
+    width: 80px;
+    border-radius: 5px;
+  }
+  .price{
+    /* margin-left: 160px; */
+  }  
+#select{ 
+    display: none;
+  }
+  #d{
+    width: 80px;
+    /* margin-left: 10px; */
+    border-radius: 5px;
+  }
+ 
+  #cars{
+     border-radius: 5px;
+     width: 100px;
+  }
+  #house{
+    border-radius: 5px;
+    width: 100px;
+  }
+  .map{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 30px;
+}
+.image{
+    height: 200px;
+    width: 396px; 
+}
+
+}
